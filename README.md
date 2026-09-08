@@ -1,11 +1,11 @@
-# Namo Locus — Python client
+# Locus — Python client
 
-Python tools for **Namo Locus**, a dual ZED-F9P GNSS receiver by Namo Robotics.
+Python tools for **Locus**, a dual ZED-F9P GNSS receiver by Namo Robotics.
 Read both receivers and the IMU over USB, view live status, send receiver
 configuration, and forward NTRIP corrections to GPS1.
 
 [Product page](https://namo-robotics.github.io/dual_zedf9p_pcb/) ·
-[Purchase and support](mailto:davidwbrwn@gmail.com?subject=Namo%20Locus%20inquiry)
+[Purchase and support](mailto:davidwbrwn@gmail.com?subject=Locus%20inquiry)
 
 ## Quick start
 
