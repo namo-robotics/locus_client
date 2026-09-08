@@ -1,15 +1,15 @@
-# Locus — Python client
+# Locus I — Python client
 
-Python tools for **Locus**, a dual ZED-F9P GNSS receiver by Namo Robotics.
+Python tools for **Locus I**, a dual ZED-F9P GNSS receiver by Namo Robotics.
 Read both receivers and the IMU over USB, view live status, send receiver
 configuration, and forward NTRIP corrections to GPS1.
 
 [Product page](https://namo-robotics.github.io/dual_zedf9p_pcb/) ·
-[Purchase and support](mailto:davidwbrwn@gmail.com?subject=Locus%20inquiry)
+[Purchase and support](mailto:davidwbrwn@gmail.com?subject=Locus%20I%20inquiry)
 
 ## Quick start
 
-Use Python 3.10 or newer. Connect Locus by USB, then:
+Use Python 3.10 or newer. Connect Locus I by USB, then:
 
 ```sh
 git clone https://github.com/namo-robotics/locus_client.git
@@ -76,7 +76,7 @@ command = dualgps.frame(dualgps.CH_GPS1_CMD, ubx_message)
 
 `received_bytes` and `ubx_message` above are application-supplied byte strings.
 The module documents the USB multiplexing wire format and channel constants.
-This is the Locus firmware protocol, not a generic direct-to-u-blox serial client.
+This is the Locus I firmware protocol, not a generic direct-to-u-blox serial client.
 
 ## Development
 
@@ -86,7 +86,7 @@ python example.py --help
 ```
 
 CI runs protocol tests and checks CLI startup on Python 3.10 and 3.14, without
-hardware or a live NTRIP connection. Real receiver operation requires a Locus board.
+hardware or a live NTRIP connection. Real receiver operation requires a Locus I board.
 
 MIT licensed; see [LICENSE](LICENSE). This repository contains the Python client.
 Hardware designs and embedded firmware are maintained separately.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Live viewer / config demo for Locus, a dual ZED-F9P + IMU receiver.
+"""Live viewer / config demo for Locus I, a dual ZED-F9P + IMU receiver.
 
 Shows one continuously-updating status line per sensor (GPS1, GPS2,
 IMU) with measured update rates; device log messages and UBX ACKs
@@ -56,7 +56,7 @@ NTRIP_DEFAULTS = {
     "user": "centipede",
     "password": "centipede",
     "version": "2.0",
-    "user_agent": "NTRIP-Locus/1.0",
+    "user_agent": "NTRIP-LocusI/1.0",
     "gga_interval": 15.0,   # seconds between GGA uploads (0 disables)
 }
 

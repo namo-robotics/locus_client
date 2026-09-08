@@ -1,4 +1,4 @@
-"""Python client for the Locus dual ZED-F9P + IMU USB mux protocol.
+"""Python client for the Locus I dual ZED-F9P + IMU USB mux protocol.
 
 Wire format (both directions), little-endian:
 
